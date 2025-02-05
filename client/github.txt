@@ -1,0 +1,22 @@
+Vérifiez les fichiers modifiés :
+bash
+
+Copier
+git status
+Ajoutez les fichiers modifiés :
+bash
+
+Copier
+git add .    # Pour ajouter tous les fichiers modifiés
+# OU
+git add nomDuFichier.js    # Pour ajouter un fichier spécifique
+Créez un nouveau commit :
+bash
+
+Copier
+git commit -m "Description des modifications effectuées"
+Poussez les modifications vers GitHub :
+bash
+
+Copier
+git push
